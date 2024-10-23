@@ -1,0 +1,259 @@
+#######################Part1###########################
+Start time: 06:58:10 on Oct 27,2023
+vlog part1.v 
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module part1
+-- Compiling module TFlipFlop
+
+Top level modules:
+	part1
+End time: 06:58:10 on Oct 27,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 10.6d
+
+# vsim -L altera_mf_ver -c -do "/cad2/ece241f/public/5/test/run.do" work.part1_tb 
+# Start time: 06:58:10 on Oct 27,2023
+# Loading sv_std.std
+# Loading work.part1_tb
+# Loading work.part1
+# Loading work.TFlipFlop
+# do /cad2/ece241f/public/5/test/run.do
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# At cycle                    3, Reset = 1, Enable = 0, current out =   0
+# At cycle                    3, Your output =   0, expected output =   0, PASSED
+# At cycle                    3, Reset = 0, Enable = 0, current out =   0
+# At cycle                    6, Your output =   0, expected output =   0, PASSED
+# At cycle                    7, Reset = 0, Enable = 1, current out =   0
+# At cycle                   31, Your output =  24, expected output =  24, PASSED
+# At cycle                   38, Your output =  31, expected output =  31, PASSED
+# At cycle                   38, Reset = 0, Enable = 0, current out =  31
+# At cycle                   45, Your output =  31, expected output =  31, PASSED
+# At cycle                   45, Reset = 0, Enable = 1, current out =  31
+# At cycle                   46, Your output =  32, expected output =  32, PASSED
+# At cycle                   46, Reset = 0, Enable = 0, current out =  32
+# At cycle                   56, Your output =  32, expected output =  32, PASSED
+# At cycle                   56, Reset = 1, Enable = 1, current out =  32
+# At cycle                   57, Your output =   0, expected output =   0, PASSED
+# At cycle                   57, Reset = 0, Enable = 1, current out =   0
+# At cycle                   74, Your output =  17, expected output =  17, PASSED
+# ** Note: $finish    : /cad2/ece241f/public/5/test/part1_tb.sv(84)
+#    Time: 73500 ps  Iteration: 0  Instance: /part1_tb
+# End time: 06:58:10 on Oct 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+######################SUMMARY of part1##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 9
+Number of FAILED: 0
+part1 is done!
+#######################Part2###########################
+Start time: 06:58:10 on Oct 27,2023
+vlog part2.v 
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module part2
+-- Compiling module RateDivider0
+-- Compiling module RateDivider1
+-- Compiling module DisplayCounter
+
+Top level modules:
+	part2
+End time: 06:58:10 on Oct 27,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 10.6d
+
+# vsim -c -do "/cad2/ece241f/public/5/test/run.do" work.part2_tb 
+# Start time: 06:58:11 on Oct 27,2023
+# Loading sv_std.std
+# Loading work.part2_tb
+# Loading work.part2
+# Loading work.RateDivider0
+# Loading work.RateDivider1
+# Loading work.DisplayCounter
+# ** Warning: (vsim-3015) part2.v(11): [PCDPC] - Port size (1) does not match connection size (4) for port 'Enable'. The port definition is at: part2.v(26).
+#    Time: 0 ns  Iteration: 0  Instance: /part2_tb/DUT/a2 File: part2.v
+# ** Warning: (vsim-3015) part2.v(12): [PCDPC] - Port size (1) does not match connection size (4) for port 'Enable'. The port definition is at: part2.v(48).
+#    Time: 0 ns  Iteration: 0  Instance: /part2_tb/DUT/a3 File: part2.v
+# ** Warning: (vsim-3015) part2.v(22): [PCDPC] - Port size (1) does not match connection size (4) for port 'EnableDC'. The port definition is at: part2.v(88).
+#    Time: 0 ns  Iteration: 0  Instance: /part2_tb/DUT/b1 File: part2.v
+# do /cad2/ece241f/public/5/test/run.do
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# At cycle                    1, Reset = 1, Speed = 0, current out =  0
+# At cycle                    4, Reset = 0, Speed = 0, current out =  0
+# At cycle                   90, your output =  6,  expected output =  6
+# PASSED
+# At cycle                   90, Reset = 0, Speed = 1, current out =  6
+# At cycle                  640, your output =  8,  expected output is from  7 to          9
+# PASSED
+# At cycle                 1740, your output = 10,  expected output = 10
+# PASSED
+# At cycle                 1740, Reset = 0, Speed = 2, current out = 10
+# Speed is changed after counter counts down to 0 and output is updated
+# At cycle                 3040, your output = 11,  expected output = 11
+# PASSED
+# At cycle                 5040, your output = 13,  expected output = 13
+# PASSED
+# ** Note: $finish    : /cad2/ece241f/public/5/test/part2_tb.sv(78)
+#    Time: 503950 ns  Iteration: 0  Instance: /part2_tb
+# End time: 06:58:11 on Oct 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 10
+######################SUMMARY of part2##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 5
+Number of FAILED: 0
+part2 is done!
+#######################Part3###########################
+Start time: 06:58:11 on Oct 27,2023
+vlog part3.v 
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module part3
+-- Compiling module letterDecoder
+-- Compiling module RateDivider
+-- Compiling module shiftRegister
+
+Top level modules:
+	part3
+End time: 06:58:11 on Oct 27,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 10.6d
+
+# vsim -c -do "/cad2/ece241f/public/5/test/run.do" work.part3_tb 
+# Start time: 06:58:12 on Oct 27,2023
+# Loading sv_std.std
+# Loading work.part3_tb
+# Loading work.part3
+# Loading work.letterDecoder
+# Loading work.RateDivider
+# Loading work.shiftRegister
+# do /cad2/ece241f/public/5/test/run.do
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# At cycle                    1, Reset = 1, Enable = 0, Select = 0
+# At cycle                    3, Reset = 0, Enable = 0, Select = 0
+# At cycle                   23, Reset = 0, Enable = 1, Select = 0
+# At cycle                   24, Reset = 0, Enable = 0, Select = 0
+# At cycle                  274, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                  525, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                  776, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 1027, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 1278, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 1529, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 1780, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 2031, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 2282, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 2533, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 2784, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 3035, your output = 0, expected output = 0
+# 	PASSED
+# Finish one morse code for Letter = 0
+# At cycle                 3035, Reset = 1, Enable = 0, Select = 1
+# At cycle                 3037, Reset = 0, Enable = 0, Select = 1
+# At cycle                 3057, Reset = 0, Enable = 1, Select = 1
+# At cycle                 3058, Reset = 0, Enable = 0, Select = 1
+# At cycle                 3308, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 3559, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 3810, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 4061, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 4312, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 4563, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 4814, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 5065, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 5316, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 5567, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 5818, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 6069, your output = 0, expected output = 0
+# 	PASSED
+# Finish one morse code for Letter = 1
+# At cycle                 6069, Reset = 1, Enable = 0, Select = 2
+# At cycle                 6071, Reset = 0, Enable = 0, Select = 2
+# At cycle                 6091, Reset = 0, Enable = 1, Select = 2
+# At cycle                 6092, Reset = 0, Enable = 0, Select = 2
+# At cycle                 6342, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 6593, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 6844, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 7095, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 7346, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 7597, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 7848, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 8099, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 8350, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 8601, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 8852, your output = 1, expected output = 1
+# 	PASSED
+# At cycle                 9103, your output = 0, expected output = 0
+# 	PASSED
+# Finish one morse code for Letter = 2
+# At cycle                 9353, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 9603, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                 9853, your output = 0, expected output = 0
+# 	PASSED
+# At cycle                10103, your output = 0, expected output = 0
+# 	PASSED
+# Finished checking that output remains at 0 after sequence is done2
+# ** Note: $finish    : /cad2/ece241f/public/5/test/part3_tb.sv(128)
+#    Time: 1010300 ns  Iteration: 0  Instance: /part3_tb
+# End time: 06:58:12 on Oct 27,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+######################SUMMARY of part3##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 40
+Number of FAILED: 0
+part3 is done!
